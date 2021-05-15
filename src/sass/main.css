@@ -75,8 +75,6 @@ p {
 }
 
 .conteiner {
-  background-color: #f55a5a;
-  height: 100px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -99,5 +97,25 @@ p {
   .conteiner {
     max-width: 822px;
   }
+}
+
+.registration-info {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  border: 1px solid rgba(171, 129, 108, 0.5);
+}
+
+.registration-field {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */
