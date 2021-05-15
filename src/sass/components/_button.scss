@@ -30,3 +30,20 @@
     margin-top: 30px;
   }
 }
+
+.button-registration {
+    width: 145px;
+    height: 40px;
+
+    font-size: 18px;
+    line-height: 1.12;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #AB816C;
+    border-radius: 25px;
+
+    @media screen and (min-width: 1200px) {
+        width: 160px;
+    }
+}
