@@ -9,4 +9,8 @@ button {
 
     background: #AB816C;
     border-radius: 25px;
+
+    @media screen and (min-width: 1200px) {
+        width: 160px;
+    }
 }
