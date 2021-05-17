@@ -527,37 +527,6 @@ input {
   display: none;
 }
 
-@media screen and (max-width: 1279px) {
-  .menu-thumb {
-    display: block;
-    position: fixed;
-    z-index: 106;
-    overflow: hidden;
-    top: -50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 190px;
-    height: 85px;
-    -webkit-transition: -webkit-transform 1000ms cubic-bezier(0.3, 0.79, 0.92, 0.15);
-    transition: -webkit-transform 1000ms cubic-bezier(0.3, 0.79, 0.92, 0.15);
-    transition: transform 1000ms cubic-bezier(0.3, 0.79, 0.92, 0.15);
-    transition: transform 1000ms cubic-bezier(0.3, 0.79, 0.92, 0.15),
-      -webkit-transform 1000ms cubic-bezier(0.3, 0.79, 0.92, 0.15);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .menu-thumb {
-    display: none;
-  }
-}
-
-.navigation-list.is-open + .menu-thumb {
-  -webkit-transform: translate(-50%, 350%);
-  transform: translate(-50%, 350%);
-}
-
 .about {
   text-align: center;
 }
