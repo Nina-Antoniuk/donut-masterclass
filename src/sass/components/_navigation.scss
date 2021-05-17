@@ -1,4 +1,4 @@
-.navigation-list {
+        .navigation-list {
     display: flex;
     margin-left: 38px;
 }
@@ -32,12 +32,9 @@
     @media screen and (min-width: 1280px) {
         padding-top: 25px;
         padding-bottom: 25px;
-    }
-}
-
-.navigation-list__item:not(:last-child) {
-    margin-right: 0;
-    @media screen and (min-width: 1280px) {
-        margin-right: 50px;
-    }
-}
+        .navigation-list__item:not(:last-child) {
+            margin-right: 0;
+            @media screen and (min-width: 1280px) {
+                margin-right: 20px;
+            }
+        }
